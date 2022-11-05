@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .content {
+            position: relative;
+            top: calc(50% - 1em);
+        }
+
+        .hello {
+            background-image: url('1file.svg');
+            overflow: hidden;
+            background-size: 1000px 850px;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .forgot:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .log-in {
+            background-color: rgb(81, 109, 231);
+        }
+
+        .log-in:hover {
+            background-color: rgb(64, 89, 199);
+            cursor: pointer;
+
+        }
+
+        .register:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    </style>
+
+    <title>Discord</title>
+</head>
+
+<body class="hello" style="margin: -10px; font-family: Arial, Helvetica, sans-serif;">
+    <nav style="display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 220px;">
+        <div class="content" style="display: flex;
+        border-radius: 8px;
+        background-color: rgb(59, 58, 58) ;
+        height: 49vh;
+        width: 60vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;">
+            <div style="color: white; margin-top: 4vh;
+            font-size: 25px; font-weight: 900; margin-bottom: 8px;">
+                Welcome back!
+            </div>
+            <div style="font-size: 14px; color: rgb(168, 164, 164);">
+                We're so excited to see you again!
+            </div>
+
+            <div style="font-size: 12px; color: rgb(190, 185, 185); font-weight: 600;
+                margin-top: 28px; padding-right: 31vh;">
+                EMAIL OR PHONE NUMBER
+            </div>
+            <div style="margin-top: 10px;">
+                <input type="text" style="height: 35px; width: 50vh;
+                    background-color: rgb(43, 40, 40);
+                    font-size: 15px;
+                    border: none;
+                    border-radius: 2px;
+                    color: white;
+                    padding-left: 10px;" />
+            </div>
+
+            <div style="font-size: 12px; color: rgb(190, 185, 185); font-weight: 600;
+                margin-top: 20px; padding-right: 42vh;">
+                PASSWORD
+            </div>
+            <div style="margin-top: 10px;">
+                <input type="password" style="height: 35px; width: 50vh;
+                    background-color: rgb(43, 40, 40);
+                    font-size: 15px;
+                    border: none;
+                    border-radius: 2px;
+                    color: white;
+                    padding-left: 10px;" />
+            </div>
+
+            <div class="forgot" style="font-size: 13px;
+                padding-top: 6px;
+                padding-right: 34vh;
+                color: rgb(94, 177, 255);">
+                Forgot your password?
+            </div>
+
+            <div style="padding-top: 14px">
+                <button class="log-in" style="border: none;
+                    font-size: 15px;
+                    color: white;
+                    font-weight: 600;
+                    height: 5vh;
+                    width: 51vh;
+                    border-radius: 2px;">
+                    Log in
+                </button>
+            </div>
+
+            <div style="display: flex; padding-top: 2vh;
+                padding-right: 30vh;">
+                <div style="font-size: 13px;
+                    color: rgb(190, 185, 185);
+                    padding-right: 5px;">
+                    Need an account?
+                </div>
+                <div class="register" style="color: rgb(94, 177, 255);
+                    font-size: 13px;
+                    font-weight: 500;">
+                    Register
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+</body>
+
+</html>
